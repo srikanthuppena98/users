@@ -59,7 +59,7 @@ export default function UserList() {
     const showDeleteConfirm = (user: UserData) => {
         Modal.confirm({
             title: 'Confirm Deletion',
-            content: `Are you sure you want to delete User ${user.id}?`,
+            content: `Are you sure you want to delete User ${user.username}?`,
             okText: 'Yes',
             okType: 'danger',
             cancelText: 'No',
