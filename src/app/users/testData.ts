@@ -1,0 +1,23 @@
+
+export const testData = [
+    { id: 1, username: 'John Doe', email: 'john@example.com', role: 'admin' },
+    { id: 2, username: 'Jane Doe', email: 'jane@example.com', role: 'user' },
+    { id: 3, username: 'Bob Smith', email: 'bob@example.com', role: 'user' },
+    { id: 4, username: 'Alice Jones', email: 'alice@example.com', role: 'admin' },
+    { id: 5, username: 'Charlie Brown', email: 'charlie@example.com', role: 'user' },
+    { id: 6, username: 'David Williams', email: 'david@example.com', role: 'user' },
+    { id: 7, username: 'Emily Davis', email: 'emily@example.com', role: 'admin' },
+    { id: 8, username: 'Frank White', email: 'frank@example.com', role: 'user' },
+    { id: 9, username: 'Grace Smith', email: 'grace@example.com', role: 'user' },
+    { id: 10, username: 'Harry Miller', email: 'harry@example.com', role: 'admin' },
+    { id: 11, username: 'Isabel Hall', email: 'isabel@example.com', role: 'user' },
+    { id: 12, username: 'Jack Taylor', email: 'jack@example.com', role: 'user' },
+    { id: 13, username: 'Kate Jackson', email: 'kate@example.com', role: 'admin' },
+    { id: 14, username: 'Liam Thompson', email: 'liam@example.com', role: 'user' },
+    { id: 15, username: 'Mia Davis', email: 'mia@example.com', role: 'user' },
+    { id: 16, username: 'Nathan Wilson', email: 'nathan@example.com', role: 'admin' },
+    { id: 17, username: 'Olivia Hall', email: 'olivia@example.com', role: 'user' },
+    { id: 18, username: 'Peter martin', email: 'peter@example.com', role: 'user' },
+    { id: 19, username: 'Quinn Robinson', email: 'quinn@example.com', role: 'admin' },
+    { id: 20, username: 'Rachel Moore', email: 'rachel@example.com', role: 'user' },
+];

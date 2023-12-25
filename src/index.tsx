@@ -1,16 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './theme.less';
+
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {DataProvider} from "./app/state/DataContext";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <DataProvider>
+        <App />
+    </DataProvider>
 );
 
 // If you want to start measuring performance in your app, pass a function
